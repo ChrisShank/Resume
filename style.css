@@ -9,18 +9,13 @@
 }
 
 @font-face {
-  font-family: "Din Black";
-  src: url("/Fonts/Din_Black.ttf");
-}
-
-@font-face {
   font-family: "Din";
   src: url("/Fonts/DIN_Bold.ttf");
   font-weight: bold;
 }
 
 html {
-  font-size: 12px;
+  font-size: 11px;
 }
 
 body {
@@ -33,9 +28,9 @@ body {
 }
 
 article {
+	border: blue solid 1px;
   height: calc(100% - (2 * 11.01rem));
   margin: 11.098rem;
-
 }
 
 h1 {
@@ -62,12 +57,13 @@ p {
 
 hr {
   border: #000 solid .021rem;
-  margin: 4.236rem auto .382rem;
+  margin: 2.618rem auto 0;
 }
 
 h2 {
-	font-family: "Din Black";
+	font-family: "Din";
  	font-size: 1rem;
+ 	font-weight: bold;
   margin: 0;
 }
 
@@ -78,16 +74,24 @@ h2 {
 }
 
 .section-element {
-  margin: .681rem 0;
+  margin-top: .681rem;
 }
 
 .element-list {
-  margin: 0;
+  margin: .056rem;
   padding: 0 1rem;
 }
 
 .element-item {
-  padding-left: 1rem;
+  padding-left: 1em;
+}
+
+.one-indent {
+	padding-left: 2em;
+}
+
+.two-indent {
+	padding-left: 3em;
 }
 
 h3 {
