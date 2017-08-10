@@ -20,6 +20,7 @@ html {
 
 body {
   border: red solid 2px;
+  font-family: "Garamond";
   height: 11in;
   line-height: ;
   margin: 0 auto;
@@ -27,7 +28,6 @@ body {
 }
 
 article {
-  border: gray solid 2px;
   height: calc(100% - (2 * 11.01rem));
   margin: 11.098rem;
 
@@ -45,7 +45,6 @@ h1 {
 
 .my-info {
   display: inline-block;
-  font-family: "Garamond";
   font-size: 1rem;
   position: relative;
   top: .382rem;
@@ -54,4 +53,27 @@ h1 {
 
 p {
   margin: 0;
+}
+
+hr {
+  border: #000 solid .056rem;
+  margin: 4.236rem auto .382rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.section-list {
+  list-style-type: none;
+}
+
+.section-element {
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.618rem;
+  font-weight: normal;
 }
