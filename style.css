@@ -1,7 +1,31 @@
+@font-face {
+  font-family: "Din";
+  src: url("/Fonts/DIN.ttf");
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("/Fonts/Garamond.ttf");
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("/Fonts/Garamond_Bold.ttf");
+  font-weight: bold;
+}
+
 html {
-  font-size: 0;
+  font-size: 12px;
 }
 
 body {
+  margin: 0;
 }
 
+h1 {
+  font-family: "Din";
+}
+
+p {
+  font-family: "Garamond";
+}
