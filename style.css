@@ -9,8 +9,13 @@
 }
 
 @font-face {
-  font-family: "Garamond";
-  src: url("/Fonts/Garamond_Bold.ttf");
+  font-family: "Din Black";
+  src: url("/Fonts/Din_Black.ttf");
+}
+
+@font-face {
+  font-family: "Din";
+  src: url("/Fonts/DIN_Bold.ttf");
   font-weight: bold;
 }
 
@@ -56,24 +61,37 @@ p {
 }
 
 hr {
-  border: #000 solid .056rem;
+  border: #000 solid .021rem;
   margin: 4.236rem auto .382rem;
 }
 
 h2 {
-  font-size: 1rem;
+	font-family: "Din Black";
+ 	font-size: 1rem;
   margin: 0;
 }
 
 .section-list {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .section-element {
+  margin: .681rem 0;
+}
+
+.element-list {
   margin: 0;
+  padding: 0 1rem;
+}
+
+.element-item {
+  padding-left: 1rem;
 }
 
 h3 {
   font-size: 1.618rem;
   font-weight: normal;
+  margin: 0 0 .382rem;
 }
