@@ -16,16 +16,38 @@
 
 html {
   font-size: 12px;
-}
-
-body {
   margin: 0;
 }
 
-h1 {
-  font-family: "Din";
+body {
+  border: red solid 2px;
+  height: 11in;
+  line-height: 1.618;
+  margin: 0 auto;
+  width: 8.5in;
 }
 
+article {
+  border: green solid 2px;
+  height: calc(100% - (2 * 11.098rem));
+  margin: 11.098rem;
+
+}
+
+h1 {
+  display: inline-block;
+  font-family: "Din";
+  font-size: 1.68rem;
+  margin: 0;
+}
+
+
 p {
+  margin: 0;
+}
+
+.my-info {
+  display: inline-block;
   font-family: "Garamond";
+  font-size: .618rem;
 }
