@@ -16,20 +16,19 @@
 
 html {
   font-size: 12px;
-  margin: 0;
 }
 
 body {
   border: red solid 2px;
   height: 11in;
-  line-height: 1.618;
+  line-height: ;
   margin: 0 auto;
   width: 8.5in;
 }
 
 article {
-  border: green solid 2px;
-  height: calc(100% - (2 * 11.098rem));
+  border: gray solid 2px;
+  height: calc(100% - (2 * 11.01rem));
   margin: 11.098rem;
 
 }
@@ -37,17 +36,22 @@ article {
 h1 {
   display: inline-block;
   font-family: "Din";
-  font-size: 1.68rem;
-  margin: 0;
-}
-
-
-p {
-  margin: 0;
+  font-size: 1.618rem;
+  letter-spacing: .0685em;
+  margin: 0; 
+  position: relative;
+  top: -2.618rem;
 }
 
 .my-info {
   display: inline-block;
   font-family: "Garamond";
-  font-size: .618rem;
+  font-size: 1rem;
+  position: relative;
+  top: .382rem;
+  left: 11.089rem;
+}
+
+p {
+  margin: 0;
 }
