@@ -32,7 +32,8 @@ body {
 }
 
 article {
-  margin: 8.91rem 12.84rem 0;
+	margin: 0 12.84rem;
+  padding-top: 8.91rem;
   position: relative;
 }
 
