@@ -19,10 +19,10 @@ html {
 }
 
 body {
-  border: red solid 2px;
+  border: red solid 1px;
   font-family: "Garamond";
   height: 11in;
-  line-height: ;
+  line-height: 1;
   margin: 0 auto;
   width: 8.5in;
 }
@@ -47,7 +47,7 @@ h1 {
   display: inline-block;
   font-size: 1rem;
   position: relative;
-  top: .382rem;
+  top: ;
   left: 11.089rem;
 }
 
@@ -67,6 +67,10 @@ h2 {
   margin: 0;
 }
 
+li {
+	line-height: 1.4;
+}
+
 .section-list {
   list-style-type: none;
   margin: 0;
@@ -78,7 +82,8 @@ h2 {
 }
 
 .element-list {
-  margin: .056rem;
+	list-style-position: inside
+  margin: -.236rem 0 .146rem 0;
   padding: 0 1rem;
 }
 
@@ -86,16 +91,14 @@ h2 {
   padding-left: 1em;
 }
 
-.one-indent {
-	padding-left: 2em;
-}
-
-.two-indent {
-	padding-left: 3em;
-}
-
 h3 {
   font-size: 1.618rem;
   font-weight: normal;
   margin: 0 0 .382rem;
+}
+
+h4 {
+	margin: 0 0 .382rem;
+	font-weight: normal;
+	font-style: italic;
 }
