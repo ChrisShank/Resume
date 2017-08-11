@@ -1,17 +1,17 @@
 @font-face {
   font-family: "Din";
-  src: url("/Fonts/DIN.ttf");
+  src: url("Fonts/DIN.ttf");
 }
 
 @font-face {
   font-family: "Garamond";
-  src: url("/Fonts/Garamond.ttf");
+  src: url("Fonts/Garamond.ttf");
 }
 
 @font-face {
   font-family: "Din";
-  src: url("/Fonts/DIN_Bold.ttf");
-  font-weight: bold;
+  src: url("Fonts/DIN_Black.ttf");
+  font-weight: 900;
 }
 
 * {
@@ -24,7 +24,6 @@ html {
 }
 
 body {
-  border: red solid 1px;
   font-family: "Garamond";
   height: 11in;
   line-height: 1.2;
@@ -33,9 +32,8 @@ body {
 }
 
 article {
-	border: blue solid 1px;
-  height: calc(100% - (8.92rem + 7.43rem));
-  margin: 8.92rem 10.7rem 7.43rem;
+  margin: 8.91rem 12.84rem 0;
+  position: relative;
 }
 
 h1, h2 {
@@ -57,39 +55,61 @@ header h1 {
 	display: inline-block;
 	font-size: .83rem;
 	position: absolute;
-	right: 12.84rem;
+	right: 0;
+	text-align: right;
+}
+
+.section-list {
+	margin-bottom: 1.44rem;
+}
+
+.section-element {
+	margin-bottom: .402rem;
 }
 
 hr {
 	border-width: 0;
 	border-top: black solid .045rem;
-	margin: 0 auto .402rem;
+	margin: 0 auto .482rem;
 }
 
 h2 {
 	font-size: .833rem;
-}
-
-.section-list {
-	list-style-type: none;
+	font-weight: 900;
 }
 
 .element-title {
 	display: inline-block;
-	font-size: ;
+	font-size: 1.44rem;
 }
 
 .element-date {
 	display: inline-block;
+	font-size: 1.2rem;
 	position: absolute;
-	right: 12.84rem;
+	right: 0;
 }
 
-.element-attributes {
+.element-position {
+	font-size: 1rem;
+	font-style: italic;
+}
+
+.element-attributes, .project-list {
 	font-size: .833rem;
-	list-style-position: inside; 
+	margin-left: 1rem;
 }
 
+.element-attribute, .project-list li {
+	padding-left: .833rem;
+}
 
+.skills-list {
+	list-style-type: none;
+	margin-bottom: 1.44rem;
+}
 
-
+.skills-list li {
+	margin-right: 2rem;
+	display: inline-block;
+}
