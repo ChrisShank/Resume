@@ -14,91 +14,82 @@
   font-weight: bold;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 html {
-  font-size: 11px;
+  font-size: 13.2px;
 }
 
 body {
   border: red solid 1px;
   font-family: "Garamond";
   height: 11in;
-  line-height: 1;
+  line-height: 1.2;
   margin: 0 auto;
   width: 8.5in;
 }
 
 article {
 	border: blue solid 1px;
-  height: calc(100% - (2 * 11.01rem));
-  margin: 11.098rem;
+  height: calc(100% - (8.92rem + 7.43rem));
+  margin: 8.92rem 10.7rem 7.43rem;
 }
 
-h1 {
-  display: inline-block;
-  font-family: "Din";
-  font-size: 1.618rem;
-  letter-spacing: .0685em;
-  margin: 0; 
-  position: relative;
-  top: -2.618rem;
+h1, h2 {
+	font-family: "Din";
+}
+
+header {
+	margin-bottom: 2.074rem;
+}
+
+header h1 {
+	display: inline-block;	
+	font-size: 1.73rem;
+	font-weight: normal;
+	margin: 0 0 1.78rem;
 }
 
 .my-info {
-  display: inline-block;
-  font-size: 1rem;
-  position: relative;
-  top: ;
-  left: 11.089rem;
-}
-
-p {
-  margin: 0;
+	display: inline-block;
+	font-size: .83rem;
+	position: absolute;
+	right: 12.84rem;
 }
 
 hr {
-  border: #000 solid .021rem;
-  margin: 2.618rem auto 0;
+	border-width: 0;
+	border-top: black solid .045rem;
+	margin: 0 auto .402rem;
 }
 
 h2 {
-	font-family: "Din";
- 	font-size: 1rem;
- 	font-weight: bold;
-  margin: 0;
-}
-
-li {
-	line-height: 1.4;
+	font-size: .833rem;
 }
 
 .section-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	list-style-type: none;
 }
 
-.section-element {
-  margin-top: .681rem;
+.element-title {
+	display: inline-block;
+	font-size: ;
 }
 
-.element-list {
-	list-style-position: inside
-  margin: -.236rem 0 .146rem 0;
-  padding: 0 1rem;
+.element-date {
+	display: inline-block;
+	position: absolute;
+	right: 12.84rem;
 }
 
-.element-item {
-  padding-left: 1em;
+.element-attributes {
+	font-size: .833rem;
+	list-style-position: inside; 
 }
 
-h3 {
-  font-size: 1.618rem;
-  font-weight: normal;
-  margin: 0 0 .382rem;
-}
 
-h4 {
-	margin: 0 0 .382rem;
-	font-weight: normal;
-	font-style: italic;
-}
+
+
