@@ -25,9 +25,12 @@ html {
 
 body {
   font-family: "Garamond";
+  -webkit-font-feature-settings: "kern" 1, "liga" 1;
+          font-feature-settings: "kern" 1, "liga" 1;
   height: 11in;
   line-height: 1.2;
   margin: 0 auto;
+  text-rendering: optimizeLegibility;
   width: 8.5in;
 }
 
@@ -45,10 +48,11 @@ h1, h2 {
 	font-family: "Din";
 }
 
-header h1 {
+h1 {
 	display: inline-block;	
 	font-size: 1.44rem;
 	font-weight: normal;
+	letter-spacing: .05em;
 	margin: 0 0 1.78rem;
 }
 
