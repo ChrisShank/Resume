@@ -20,7 +20,7 @@
 }
 
 html {
-  font-size: 13.2px;
+  font-size: 15.6px;
 }
 
 body {
@@ -32,22 +32,22 @@ body {
 }
 
 article {
-	margin: 0 12.84rem;
-  padding-top: 8.91rem;
+	margin: 0 8.916rem;
+  padding-top: 5.16rem;
   position: relative;
-}
-
-h1, h2 {
-	font-family: "Din";
 }
 
 header {
 	margin-bottom: 2.074rem;
 }
 
+h1, h2 {
+	font-family: "Din";
+}
+
 header h1 {
 	display: inline-block;	
-	font-size: 1.73rem;
+	font-size: 1.44rem;
 	font-weight: normal;
 	margin: 0 0 1.78rem;
 }
@@ -77,11 +77,12 @@ hr {
 h2 {
 	font-size: .833rem;
 	font-weight: 900;
+	margin-bottom: .233rem;
 }
 
 .element-title {
 	display: inline-block;
-	font-size: 1.44rem;
+	font-size: 1.2rem;
 }
 
 .element-date {
@@ -91,8 +92,11 @@ h2 {
 	right: 0;
 }
 
-.element-position {
+.element-pos-loc {
 	font-size: 1rem;
+}
+
+.element-position {
 	font-style: italic;
 }
 
@@ -108,6 +112,10 @@ h2 {
 .skills-list {
 	list-style-type: none;
 	margin-bottom: 1.44rem;
+}
+
+.skills-list, .project-list {
+	margin-top: .279rem;
 }
 
 .skills-list li {
