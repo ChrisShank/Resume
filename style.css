@@ -26,30 +26,30 @@
 }
 
 html {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 body {
-	border: red solid 1px;
+	border: red solid 0px;
   font-family: "Garamond";
   -webkit-font-feature-settings: "kern" 1, "liga" 1;
           font-feature-settings: "kern" 1, "liga" 1;
   height: 11in;
-  line-height: 1.414;
+  line-height: 1.189;
   margin: 0 auto;
   text-rendering: optimizeLegibility;
   width: 8.5in;
 }
 
 article {
-	border: blue solid 1px;
-	margin: 0 8rem;
-  padding-top: 5.653rem;
+	border: blue solid 0px;
+	margin: 0 11.286rem;
+  padding-top: 6.714rem;
   position: relative;
 }
 
 header {
-	margin-bottom: 1.414rem;
+	margin-bottom: 2.378rem;
 }
 
 h1, h2 {
@@ -61,77 +61,64 @@ h1 {
 	font-size: 2rem;
 	font-weight: normal;
 	letter-spacing: .05em;
-	margin: 0 0 2.827rem;
+	margin: 0 0 2.378rem;
 }
 
 .my-info {
 	display: inline-block;
-	font-size: 1rem;
 	position: absolute;
 	right: 0;
 	text-align: right;
 }
 
-.section-list {
-	margin-bottom: 1.414rem;
+.section-list, .skills-list {
+	margin-bottom: 1.189rem;
 }
 
 .section-element {
-	margin-bottom: 1.414rem;
+	margin-bottom: .707rem;
 }
 
 hr {
 	border-width: 0;
 	border-top: black solid .063rem;
-	margin: 0 auto .707rem;
+	margin: 0 auto .354rem;
 }
 
 h2 {
 	font-size: 1rem;
 	font-weight: 900;
-	margin-bottom: rem;
+	letter-spacing: .03em;
+	margin-bottom: .298rem;
 }
 
-.element-title {
+.element-title, .element-date {
 	display: inline-block;
-	font-size: rem;
+	font-size: 1.414rem;
 }
 
 .element-date {
-	display: inline-block;
-	font-size: rem;
 	position: absolute;
 	right: 0;
 }
 
-.element-pos-loc {
-	font-size: 1rem;
-}
-
 .element-position {
-	font-size: 1rem;
 	font-style: italic;
 }
 
 .element-attributes, .project-list {
-	font-size: 1rem;
-	margin-left: 1rem;
+	margin-left: 1.189rem;
 }
 
 .element-attribute, .project-list li {
-	padding-left: rem;
+	padding-left: 1rem;
 }
 
 .skills-list {
 	list-style-type: none;
-	margin-bottom: 1.414rem;
-}
-
-.skills-list, .project-list {
-	margin-top: rem;
 }
 
 .skills-list li {
-	margin-right: rem;
 	display: inline-block;
+	margin-right: 2rem;
 }
