@@ -31,21 +31,21 @@ html {
 
 body {
 	border: red solid 0px;
-  font-family: "Garamond";
-  -webkit-font-feature-settings: "kern" 1, "liga" 1;
-          font-feature-settings: "kern" 1, "liga" 1;
-  height: 11in;
-  line-height: 1.189;
-  margin: 0 auto;
-  text-rendering: optimizeLegibility;
-  width: 8.5in;
+  	font-family: "Garamond";
+    -webkit-font-feature-settings: "kern" 1, "liga" 1;
+            font-feature-settings: "kern" 1, "liga" 1;
+  	height: 11in;
+	line-height: 1.189;
+	margin: 0 auto;
+	text-rendering: optimizeLegibility;
+	width: 8.5in;
 }
 
 article {
 	border: blue solid 0px;
 	margin: 0 11.286rem;
-  padding-top: 6.714rem;
-  position: relative;
+	padding-top: 6.714rem;
+	position: relative;
 }
 
 header {
@@ -71,7 +71,7 @@ h1 {
 	text-align: right;
 }
 
-.section-list, .skills-list {
+.section-list, .skills-list, .project-list {
 	margin-bottom: 1.189rem;
 }
 
@@ -119,6 +119,6 @@ h2 {
 }
 
 .skills-list li {
-	display: inline-block;
+		display: inline-block;
 	margin-right: 2rem;
 }
