@@ -4,6 +4,12 @@
 }
 
 @font-face {
+  font-family: "Din";
+  src: url("Fonts/DIN_Black.ttf");
+  font-weight: 900;
+}
+
+@font-face {
   font-family: "Garamond";
   src: url("Fonts/Garamond.ttf");
 }
@@ -14,19 +20,13 @@
   font-style: italic;
 }
 
-@font-face {
-  font-family: "Din";
-  src: url("Fonts/DIN_Black.ttf");
-  font-weight: 900;
-}
-
 * {
 	margin: 0;
 	padding: 0;
 }
 
 html {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 body {
@@ -43,13 +43,13 @@ body {
 
 article {
 	border: blue solid 0px;
-	margin: 0 11.286rem;
-	padding-top: 6.714rem;
+	margin: 0 8rem;
+	padding-top: 5.657rem;
 	position: relative;
 }
 
 header {
-	margin-bottom: 2.378rem;
+	margin-bottom: 1.189rem;
 }
 
 h1, h2 {
