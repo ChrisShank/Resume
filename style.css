@@ -20,13 +20,13 @@
   font-style: italic;
 }
 
-* {
+* { /* Only used this selector for ease of reseting CSS, I would not use it in development*/
 	margin: 0;
 	padding: 0;
 }
 
 html {
-  font-size: 14px;
+  font-size: 13.5px;
 }
 
 body {
@@ -44,7 +44,7 @@ body {
 article {
 	border: blue solid 0px;
 	margin: 0 8rem;
-	padding-top: 5.657rem;
+	padding-top: 2.828rem;
 	position: relative;
 }
 
@@ -71,7 +71,7 @@ h1 {
 	text-align: right;
 }
 
-.section-list, .skills-list, .project-list {
+.section-list, .skills-list {
 	margin-bottom: 1.189rem;
 }
 
@@ -92,6 +92,15 @@ h2 {
 	margin-bottom: .298rem;
 }
 
+.skills-list {
+	list-style-type: none;
+}
+
+.skills-list li {
+		display: inline-block;
+	margin-right: 2rem;
+}
+
 .element-title, .element-date {
 	display: inline-block;
 	font-size: 1.414rem;
@@ -106,19 +115,10 @@ h2 {
 	font-style: italic;
 }
 
-.element-attributes, .project-list {
+.element-attributes {
 	margin-left: 1.189rem;
 }
 
-.element-attribute, .project-list li {
+.element-attribute {
 	padding-left: 1rem;
-}
-
-.skills-list {
-	list-style-type: none;
-}
-
-.skills-list li {
-		display: inline-block;
-	margin-right: 2rem;
 }
