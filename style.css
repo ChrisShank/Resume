@@ -25,12 +25,12 @@
 	padding: 0;
 }
 
+
 html {
-  font-size: 13.5px;
+	font-size: 13px;
 }
 
 body {
-	border: red solid 0px;
   	font-family: "Garamond";
     -webkit-font-feature-settings: "kern" 1, "liga" 1;
             font-feature-settings: "kern" 1, "liga" 1;
@@ -42,9 +42,8 @@ body {
 }
 
 article {
-	border: blue solid 0px;
-	margin: 0 8rem;
-	padding-top: 2.828rem;
+	margin: 0 10rem;
+	padding-top: 3.364rem;
 	position: relative;
 }
 
@@ -61,7 +60,7 @@ h1 {
 	font-size: 2rem;
 	font-weight: normal;
 	letter-spacing: .05em;
-	margin: 0 0 2.378rem;
+	margin: 0 0 3.567rem;
 }
 
 .my-info {
@@ -80,8 +79,8 @@ h1 {
 }
 
 hr {
-	border-width: 0;
-	border-top: black solid .063rem;
+	border: none;
+	border-top: solid .063rem black;
 	margin: 0 auto .354rem;
 }
 
@@ -97,13 +96,13 @@ h2 {
 }
 
 .skills-list li {
-		display: inline-block;
+	display: inline-block;
 	margin-right: 2rem;
 }
 
 .element-title, .element-date {
 	display: inline-block;
-	font-size: 1.414rem;
+	font-size: 1.189rem;
 }
 
 .element-date {
@@ -121,4 +120,14 @@ h2 {
 
 .element-attribute {
 	padding-left: 1rem;
+}
+
+@media (min-width: 1000px) {
+	html {
+		font-size: 13.5px;
+	}
+
+	article {
+		margin: 0 8rem;
+	}
 }
