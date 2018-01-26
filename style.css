@@ -31,10 +31,9 @@ html {
 }
 
 body {
-  	font-family: "Garamond";
-    -webkit-font-feature-settings: "kern" 1, "liga" 1;
-            font-feature-settings: "kern" 1, "liga" 1;
-  	height: 11in;
+  font-family: "Garamond";
+  font-feature-settings: "kern" 1, "liga" 1;
+  height: 11in;
 	line-height: 1.189;
 	margin: 0 auto;
 	text-rendering: optimizeLegibility;
@@ -98,6 +97,10 @@ h2 {
 .skills-list li {
 	display: inline-block;
 	margin-right: 2rem;
+}
+
+.skills-list li:last-child {
+	margin-right: 0;
 }
 
 .element-title, .element-date {
