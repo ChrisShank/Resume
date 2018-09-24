@@ -20,116 +20,116 @@
   font-style: italic;
 }
 
-* { /* Only used this selector for ease of reseting CSS, I would not use it in development*/
-	margin: 0;
-	padding: 0;
+* {
+  /* Only used this selector for ease of reseting CSS, I would not use it in development*/
+  margin: 0;
+  padding: 0;
 }
 
-
 html {
-	font-size: 13px;
+  font-size: 13px;
 }
 
 body {
   font-family: "Garamond";
   height: 11in;
-	line-height: 1.189;
-	margin: 0 auto;
-	text-rendering: optimizeLegibility;
-	width: 8.5in;
+  line-height: 1.189;
+  margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  width: 8.5in;
 }
 
 article {
-	margin: 0 10rem;
-	padding-top: 3.364rem;
-	position: relative;
+  margin: 0 7.5rem;
+  padding-top: 3.364rem;
+  position: relative;
 }
 
 header {
-	margin-bottom: 1.189rem;
+	position: relative;
+  margin-bottom: 1.189rem;
 }
 
-h1, h2 {
-	font-family: "Din";
+h1, h2, .my-desc {
+  font-family: "Din";
 }
 
 h1 {
-	display: inline-block;	
-	font-size: 2rem;
-	font-weight: normal;
-	letter-spacing: .05em;
-	margin: 0 0 3.567rem;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 0.04em;
+  margin: 0 0 calc(2 * 1.189rem);
 }
 
 .my-info {
-	display: inline-block;
+  display: inline-block;
+  position: absolute;
+  	right: 0;
+  text-align: right;
+}
+
+.my-desc {
+	font-size: 1.189rem;
 	position: absolute;
-	right: 0;
-	text-align: right;
+		bottom: 0;	
+		left: 0;
 }
 
 .section-list, .skills-list {
-	margin-bottom: 1.189rem;
+  margin-bottom: 1.189rem;
 }
 
 .section-element {
-	margin-bottom: .707rem;
+  margin-bottom: .707rem;
 }
 
 hr {
-	border: none;
-	border-top: solid .063rem black;
-	margin: 0 auto .354rem;
+  border: none;
+  border-top: solid .063rem black;
+  margin: 0 auto .354rem;
 }
 
 h2 {
-	font-size: 1rem;
-	font-weight: 900;
-	letter-spacing: .03em;
-	margin-bottom: .298rem;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: .03em;
+  margin-bottom: .298rem;
 }
 
 .skills-list {
-	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  list-style-type: none;
 }
 
 .skills-list li {
-	display: inline-block;
-	margin-right: 2rem;
+  margin-right: 2.378rem;
 }
 
-.skills-list li:last-child {
-	margin-right: 0;
+.skills-list li:first-child {
+	margin-bottom: 0.5rem;
+}
+
+.skills-list li:nth-child(8), .skills-list li:nth-child(18) {
+  margin-right: 0;
 }
 
 .element-title, .element-date {
-	display: inline-block;
-	font-size: 1.189rem;
+  display: inline-block;
+  font-size: 1.189rem;
 }
 
 .element-date {
-	position: absolute;
-	right: 0;
-}
-
-.element-position {
-	font-style: italic;
+  position: absolute;
+  right: 0;
 }
 
 .element-attributes {
-	margin-left: 1.189rem;
+  margin-left: 1.189rem;
 }
 
-.element-attribute {
-	padding-left: 1rem;
-}
-
-@media (min-width: 1000px) {
-	html {
-		font-size: 13.5px;
-	}
-
-	article {
-		margin: 0 8rem;
-	}
+.element-attributes li {
+  padding-left: 1rem;
 }
