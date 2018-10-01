@@ -41,7 +41,7 @@ body {
 
 article {
   margin: 0 7.5rem;
-  padding-top: 3.364rem;
+  padding-top: 2em;
   position: relative;
 }
 
@@ -81,13 +81,13 @@ h1 {
 }
 
 .section-element {
-  margin-bottom: .707rem;
+  margin-bottom: 0.5rem;
 }
 
 hr {
   border: none;
-  border-top: solid .063rem black;
-  margin: 0 auto .354rem;
+  border-top: solid 0.063rem black;
+  margin: 0 auto 0.354rem;
 }
 
 h2 {
@@ -109,10 +109,10 @@ h2 {
 }
 
 .skills-list li:first-child {
-	margin-bottom: 0.5rem;
+	margin-bottom: 0rem;
 }
 
-.skills-list li:nth-child(8), .skills-list li:nth-child(18) {
+.skills-list li:nth-child(10), .skills-list li:nth-child(18) {
   margin-right: 0;
 }
 
